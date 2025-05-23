@@ -14,6 +14,8 @@ Un mini shell Unix codé en C, capable d'exécuter des commandes internes (`cd`,
 
 Voir la vidéo dans `/docs/demo.mp4`
 
+---
+
 ## Compilation
 
 ```bash
