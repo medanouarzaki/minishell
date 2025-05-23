@@ -1,3 +1,5 @@
+![Aperçu du shell](docs/preview.png)
+
 # MiniShell – Projet C
 
 Un mini-shell simple écrit en langage C, permettant d'exécuter des commandes internes et externes, avec gestion des redirections, des variables d’environnement et du signal `Ctrl+C`.
