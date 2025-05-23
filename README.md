@@ -2,6 +2,9 @@
 
 # MiniShell – Projet C
 
+![GitHub last commit](https://img.shields.io/github/last-commit/medanouarzaki/minishell)
+![GitHub repo size](https://img.shields.io/github/repo-size/medanouarzaki/minishell)
+
 Un mini-shell simple écrit en langage C, permettant d'exécuter des commandes internes et externes, avec gestion des redirections, des variables d’environnement et du signal `Ctrl+C`.
 
 ---
