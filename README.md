@@ -1,57 +1,48 @@
-# MiniShell — Projet C
+# MiniShell – Projet C
 
-Un mini shell Unix codé en C, capable d'exécuter des commandes internes (`cd`, `exit`, `help`) et externes, avec support :
-- des redirections (`>`, `<`, `>>`)
-- du signal `Ctrl+C`
-- des variables d’environnement (`$HOME`, `$USER`)
-
-## Structure
-
-- `src/` — Code source C
-- `docs/` — Rapport PDF, démo vidéo, images
-
-## Démo
-
-Voir la vidéo dans `/docs/demo.mp4`
+Un mini-shell simple écrit en langage C, permettant d'exécuter des commandes internes et externes, avec gestion des redirections, des variables d’environnement et du signal `Ctrl+C`.
 
 ---
 
-## Compilation
+## 📁 Structure du projet
+
+minishell_final/
+├── src/ → Code source (C, Makefile)
+├── docs/ → Rapport PDF, vidéo, README
+
+---
+
+## ▶️ Compilation et lancement
 
 ```bash
 cd src
 make
 ./minishell
 
----
-
-## Démonstration
-
-Voir la vidéo dans `docs/demo.mp4`.  
+🎥 Démonstration
+Voir la vidéo dans docs/demo.mp4
 La démonstration montre l’utilisation du shell avec différentes commandes et redirections.
 
----
+🧠 Ce que j’ai appris
+Manipuler des processus (fork, exec, wait)
 
-## Ce que j’ai appris
+Gérer les signaux sous Linux (SIGINT)
 
-- Manipuler des processus (`fork`, `exec`, `wait`)
-- Gérer les signaux sous Linux
-- Lire dynamiquement une ligne utilisateur
-- Implémenter une logique de parsing simple
-- Organiser un projet avec Makefile et Git
+Lire dynamiquement une ligne utilisateur
 
----
+Implémenter une logique de parsing simple
 
-## Limites & améliorations futures
+Organiser un projet avec Makefile et Git
 
-- Pas encore de support pour les pipes (`|`)
-- Pas de gestion des guillemets `" "` ou des jokers `*`
-- Possibilité d’ajouter l’historique de commandes
+⚠️ Limites & améliorations futures
+Pas encore de support pour les pipes (|)
 
----
+Pas de gestion des guillemets " " ou des jokers *
 
-## Conclusion
+Possibilité d’ajouter l’historique de commandes
 
-Ce projet m’a permis de comprendre les bases de l’interprétation de commandes sous Unix/Linux.  
+✅ Conclusion
+Ce projet m’a permis de comprendre les bases de l’interprétation de commandes sous Unix/Linux.
 Il m’a appris à manipuler bas niveau des processus et à structurer un projet C proprement.
+
 
