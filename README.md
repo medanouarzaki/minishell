@@ -6,9 +6,11 @@ Un mini-shell simple écrit en langage C, permettant d'exécuter des commandes i
 
 ## 📁 Structure du projet
 
+```
 minishell_final/
-├── src/ → Code source (C, Makefile)
-├── docs/ → Rapport PDF, vidéo, README
+├── src/         → Code source (C, Makefile)
+├── docs/        → Rapport PDF, vidéo, README
+```
 
 ---
 
@@ -18,31 +20,36 @@ minishell_final/
 cd src
 make
 ./minishell
+```
 
-🎥 Démonstration
-Voir la vidéo dans docs/demo.mp4
+---
+
+## 🎥 Démonstration
+
+Voir la vidéo dans [`docs/demo.mp4`](docs/demo.mp4)  
 La démonstration montre l’utilisation du shell avec différentes commandes et redirections.
 
-🧠 Ce que j’ai appris
-Manipuler des processus (fork, exec, wait)
+---
 
-Gérer les signaux sous Linux (SIGINT)
+## 🧠 Ce que j’ai appris
 
-Lire dynamiquement une ligne utilisateur
+- Manipuler des processus (`fork`, `exec`, `wait`)
+- Gérer les signaux sous Linux (`SIGINT`)
+- Lire dynamiquement une ligne utilisateur
+- Implémenter une logique de parsing simple
+- Organiser un projet avec Makefile et Git
 
-Implémenter une logique de parsing simple
+---
 
-Organiser un projet avec Makefile et Git
+## ⚠️ Limites & améliorations futures
 
-⚠️ Limites & améliorations futures
-Pas encore de support pour les pipes (|)
+- Pas encore de support pour les pipes (`|`)
+- Pas de gestion des guillemets `" "` ou des jokers `*`
+- Possibilité d’ajouter l’historique de commandes
 
-Pas de gestion des guillemets " " ou des jokers *
+---
 
-Possibilité d’ajouter l’historique de commandes
+## ✅ Conclusion
 
-✅ Conclusion
-Ce projet m’a permis de comprendre les bases de l’interprétation de commandes sous Unix/Linux.
+Ce projet m’a permis de comprendre les bases de l’interprétation de commandes sous Unix/Linux.  
 Il m’a appris à manipuler bas niveau des processus et à structurer un projet C proprement.
-
-
