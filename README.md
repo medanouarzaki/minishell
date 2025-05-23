@@ -23,6 +23,8 @@ cd src
 make
 ./minishell
 
+---
+
 ## Démonstration
 
 Voir la vidéo dans `docs/demo.mp4`.  
