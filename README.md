@@ -9,7 +9,7 @@ Un mini-shell simple écrit en langage C, permettant d'exécuter des commandes i
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 minishell_final/
@@ -54,7 +54,7 @@ La démonstration montre l’utilisation du shell avec différentes commandes et
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Ce projet m’a permis de comprendre les bases de l’interprétation de commandes sous Unix/Linux.  
 Il m’a appris à manipuler bas niveau des processus et à structurer un projet C proprement.
