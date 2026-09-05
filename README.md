@@ -19,7 +19,7 @@ minishell_final/
 
 ---
 
-## ▶️ Compilation et lancement
+## Compilation et lancement
 
 ```bash
 cd src
@@ -29,14 +29,14 @@ make
 
 ---
 
-## 🎥 Démonstration
+## Démonstration
 
 Voir la vidéo dans [`docs/demo.mp4`](docs/demo.mp4)  
 La démonstration montre l’utilisation du shell avec différentes commandes et redirections.
 
 ---
 
-## 🧠 Ce que j’ai appris
+## Ce que j’ai appris
 
 - Manipuler des processus (`fork`, `exec`, `wait`)
 - Gérer les signaux sous Linux (`SIGINT`)
@@ -46,7 +46,7 @@ La démonstration montre l’utilisation du shell avec différentes commandes et
 
 ---
 
-## ⚠️ Limites & améliorations futures
+## Limites & améliorations futures
 
 - Pas encore de support pour les pipes (`|`)
 - Pas de gestion des guillemets `" "` ou des jokers `*`
